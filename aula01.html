@@ -1,0 +1,124 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Endereço</td>
+        </tr>
+        <tr>
+             <td>Mariana</td>
+            <td>25</td>
+            <td>Rua 2</td>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>32</td>
+            <td>Rua 3</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>20</td>
+            <td>Rua 1</td>
+        </tr>
+        </table>
+
+        <br><br>
+
+        <form>
+            <input type = "button" value = "Clique aqui" 
+            onclick = "msgaluno()" 
+            onmouseup="mouseEvento()" 
+            onmousedown="mouseEvento()" 
+            onmouseout="mouseEvento()" 
+            onmouseenter="mouseEvento()">
+        </form>
+
+        <br><br>
+
+        <form>
+            <input type = "checkbox" name = "curso 1" value = "logica">Eu fiz curso de lógica<br>
+            <input type = "checkbox" name = "curso 2" value = "inglês">Estudei inglês<br>
+            <input type = "checkbox" name = "curso 3" value = "espanhol">Estudei espanhol<br>
+        </form>
+
+        <br><br>
+
+        <form>
+            data de nascimento: <input type = "date" name = "nascimento">
+        </form>
+
+        <br><br>
+
+        <form>
+            <input type = "password" name = "senha" placeholder = "Informe sua senha">
+        </form>
+
+        <br><br>
+
+        <form>
+            <p>Informe seu grupo de idade</p>
+            <input type="radio" name="idade" value="18_22">15 a 18 <br>
+            <input type="radio" name="idade" value="23_30">20 a 30 <br>
+            <input type="radio" name="idade" value="mais31">acima de 31 <br>
+        </form>
+        
+        <br><br>
+
+        <form>
+            Defina seu nível de satisfação em comprar o produto:<br>
+            pouco satisfeito 
+            <input type="range" name="satisfacaoproduto" min="0" max="10"> muito satisfeito
+        </form>
+
+        <br><br>
+
+        <form>
+            <label>Nome</label><br>
+            <input type="text"><br><br>
+            <input type="reset" value="APAGAR TUDO">
+        </form>
+
+        <br><br>
+
+        <form>
+            Nome:<br> <input type="text" name="nome"><br>
+            Sobrenome:<br> <input type="text" name="sobrenome"><br>
+            Endereço:<br> <input type="text" name="endereco"><br><br>
+            <input type="submit" value="Enviar Informações"><br>
+            </form>
+
+             <br><br>
+
+            <form>
+                Nome:<input type=text name=nome>
+                <p>Sexo:
+                <input type=radio name=sexo value=m>Masculino
+                <input type=radio name=sexo value=f>Feminino
+                <p> Assinale abaixo os programas de computador que domina:
+                <BR><input type=checkbox name=prog value=word> Word
+                <BR><input type=checkbox name=prog value=excel> Excel
+                <BR><input type=checkbox name=prog value=access> Access
+                <BR><input type=checkbox name=prog value=powerpoint> power point
+                <p> Cargo:</p>
+                <select name=cargo>
+                <option value=selecione> Selecione cargo
+                <option value=analista> professor (a) na área de Sistemas da informação
+                <option value=gerente> professor (a)na área de Gestão
+                <option value=programador> professor (a) na área de programação em python
+                <option value=Devweb> professor (a) na área de Dev Web
+                </select>
+                <p> <input type=submit value=Enviar> <input type=reset
+                value="Apagar Campos"> </p>
+            </form>
+
+  <script src="aula01.js"></script>
+</body>
+</html>

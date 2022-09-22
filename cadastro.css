@@ -1,0 +1,44 @@
+*{
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+ }
+  
+ .formulario{
+    border: 1px solid rgb(126, 123, 123);
+    width: fit-content;
+    border-radius: 7px;
+ }
+  
+ #seuNome,
+ #nomeUsuario,
+ #senha,
+ #confirmeSenha{
+    width: 200px;
+    border-radius: 7px;
+    border:solid 1px;
+ }
+  
+ input[type=submit]{
+    width: 215px;
+    background-color: rgb(60, 162, 235);
+    color: white;
+    font-weight:800;
+    font-size: 16px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+ }
+  
+ input[type=submit]:hover{
+    background-color:rgb(151, 151, 10);
+    color: white;
+ }
+  
+ h3{
+    text-align: center;
+    font-family: monospace;
+    font-size: 19px;
+ }
+
+ 

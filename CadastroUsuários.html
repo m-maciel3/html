@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="BR">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="cadastro.css">
+   <title>Cadastro</title>
+</head>
+<body>
+   <div>
+       <form>
+           <fieldset class="grupo">
+               <legend>Cadastro de Usuário</legend>
+               <input  type="text"
+                       name="seuNome"
+                       id="seuNome"
+                       placeholder="Seu nome"
+                       autocomplete="off"
+                       onfocus="seuNomeFocus()"
+                       onblur="seuNomeSemFocus()"
+ 
+               >
+               <br><br>
+               <input  type="text"
+                       name="seuLogin"
+                       id="seuLogin"
+                       placeholder="Seu login"
+                       autocomplete="off"
+                       onfocus="seuLoginFucus()"
+                       onblur="seuLoginSemFocus()"
+               >
+               <br><br>
+               <input  onfocus="senhaFocus()"
+                       onblur="senhaSemFocus()"
+                       type="password"
+                       name="suaSenha"
+                       id="suaSenha"
+                       placeholder="Sua senha">
+                       <br><br>
+               <input  type="password"
+                       name="confirmeSenha"
+                       id="confirmeSenha"
+                       placeholder="Confirme senha"
+                       onfocus="confirmeSenhaFocus()"
+                       onblur="confirmeSenhaSemFocus()"
+               ><br><br>
+               <input type="button" value="Salvar" id="salvar">
+               <input type="reset" value="Refazer" id="refazer">
+       </form>
+   </div>
+ 
+   <script src="cadastro.js"></script>
+</body>
+</html>
